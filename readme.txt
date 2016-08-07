@@ -23,3 +23,5 @@ git clean -xdf
 
 
 git checkout -f //checkout该文件所有的文件
+
+git add指令看http://blog.csdn.net/joe_007/article/details/7889173
