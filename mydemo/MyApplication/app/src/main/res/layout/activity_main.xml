@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/imageView_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="15dp"
+                android:src="@drawable/default_icon"/>
+            <com.yalantis.ucrop.view.UCropView
+                android:id="@+id/ucrop"
+                android:layout_width="320dp"
+                android:layout_height="180dp"
+                android:padding="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/default_icon"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
